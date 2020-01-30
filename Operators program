@@ -1,0 +1,28 @@
+//Main method array of string
+fun main(args:Array<String>){
+    
+    //Immutable values of a and b
+    val a = 34 
+    val b = 56
+    
+    //Mutable value of result
+    //Addition
+    var result= a + b
+    println("$result")
+    
+    //Substraction
+    result= a - b
+    println("$result")
+    
+    //Multiplication
+    result= a * b
+    println("$result")
+    
+    //Division
+    result= a / b
+    println("$result")
+    
+    //Modulus
+    result= a % b
+    println("$result")
+}
