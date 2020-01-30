@@ -1,0 +1,13 @@
+//Main method array of string
+fun main(args:Array<String>){
+  
+    //First string
+    var sentence= "The sky is blue"
+    
+    //Second string
+    var public= " and the clouds are white"
+    
+    //Concatenation of Strings
+    var result = sentence + public
+    println("$result")
+}
